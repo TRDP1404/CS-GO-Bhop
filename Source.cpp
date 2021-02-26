@@ -19,7 +19,7 @@ int main()
 	int forceJumpValue = 0;
 	printf("Cheat Loaded!\n");
 		
-	while (true)
+	while (GetAsyncKeyState(VK_END))
 	{
 		uintptr_t localPlayer = RPM<uintptr_t>(moduleBase + 0x4DA2F44);
 		int flags = RPM<int>(localPlayer + 0x104);
