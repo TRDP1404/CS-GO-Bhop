@@ -1,6 +1,7 @@
 #include <iostream>
 #include <Windows.h>
 #include <TlHelp32.h>
+#include "offsets.h"
 uintptr_t moduleBase;
 DWORD procId;
 HWND hwnd;
