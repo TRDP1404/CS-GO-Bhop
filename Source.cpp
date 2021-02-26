@@ -1,11 +1,5 @@
 #include "functions.h"
 
-#define wEntityList = 0x4DA2F44;
-#define forcejump = 0x524CEA4;
-#define m_fFlags = 0x104;
-#define m_iHealth = 0x100;
-
-
 int main()
 {
 
